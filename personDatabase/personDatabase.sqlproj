@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{60dc3311-8907-4a46-826b-e64f85e4aa32}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -67,5 +67,12 @@
     <Build Include="dbo\Tables\Employee.sql" />
     <Build Include="dbo\Tables\EmployeeInfo.sql" />
     <Build Include="dbo\Stored Procedures\GetAllEmployeesBySalary.sql" />
+    <Build Include="dbo\Tables\Lookup.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Values.Lookup.sql" />
   </ItemGroup>
 </Project>
