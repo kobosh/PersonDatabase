@@ -2,7 +2,7 @@
 using (values
 (1,N'emp_status',N'active',N'active'),
 (2,N'emp_status',N'absent',N'absent'),
-(3,N'emp_status',N'promoted',N'promoted'),
+(3,N'emp_status',N'prom',N'promoted'),
 (4,N'emp_email',N'work',N'work'),
 (5,N'emp_email',N'personal',N'personal')
 

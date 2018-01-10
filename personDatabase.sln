@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "personDatabase", "personDatabase\personDatabase.sqlproj", "{60DC3311-8907-4A46-826B-E64F85E4AA32}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B42015B2-4F4E-4BCC-933B-49FB586365EB}"
+	ProjectSection(SolutionItems) = preProject
+		deployusingsqlpackage.exe.bat = deployusingsqlpackage.exe.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
